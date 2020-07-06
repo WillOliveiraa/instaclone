@@ -1,0 +1,7 @@
+Para executar o server.json
+
+CMD:
+json-server server.json -d 1000 -w
+
+Para ativar a porta:
+adb reverse tcp:3000 tcp:3000
